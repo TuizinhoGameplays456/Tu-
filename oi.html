@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function compute(form) {
+            if(prompt("Na verdade tu é...",0)==3){
+                alert("Parabéns, tu é!");
+                window.location.href = "tchau.html";
+            }
+            else{
+                alert("Será?");
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oi</title>
+</head>
+    <body>
+            <center>
+            <table border="1" cellpadding="2" width="400"
+            bordercolor="#Ff1234" bordercolorlight="#0000FF"
+            bordercolordark="FF0000">
+            <tr>
+                <td><blockquote>
+                    <p align="left"><font face="arial"><strong>
+                    <small>1° Pergunta:</small><br>
+                    <small>Tu é?</small><br>
+                    <br>
+                    <font color="000080"><small>1 - Sem dúvida</small><br>
+                    <small>2 - Com certeza</small><br>
+                    <small>3 - Absolutamente</small><br>
+                    
+                </blockquote></td>
+            </tr>
+            </table>
+            </center>
+            <br>
+            <form>
+                <div align="center">
+                    <input type="button" value="Fala pra mim vai"
+                    onclick="compute(this.form)">
+                </div>
+            </form>
+    
+    </body>
+</html>
